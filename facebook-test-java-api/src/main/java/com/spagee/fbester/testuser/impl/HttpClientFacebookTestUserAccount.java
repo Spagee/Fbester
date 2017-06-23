@@ -1,4 +1,4 @@
-package com.spagee.fbester.testuser.tests;
+package com.spagee.fbester.testuser.impl;
 
 import com.spagee.fbester.testuser.AccountSettingsChanger;
 import com.spagee.fbester.testuser.FacebookTestUserAccount;
