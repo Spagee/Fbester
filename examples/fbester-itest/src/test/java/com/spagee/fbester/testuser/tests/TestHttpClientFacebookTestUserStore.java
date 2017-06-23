@@ -1,8 +1,7 @@
-package com.spagee.fbester.testuser.impl;
+package com.spagee.fbester.testuser.tests;
 
-import com.spagee.fbester.testuser.FacebookTestUserAccount;
-import com.spagee.fbester.testuser.FacebookTestUserStore;
-import com.jayway.jsonassert.JsonAssert;
+
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -19,8 +18,6 @@ import org.junit.*;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Properties;
 import java.util.regex.Pattern;
 

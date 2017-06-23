@@ -26,11 +26,11 @@
         <level value="debug"/>
     </logger>
 
-    <logger name="org.apache.http.impl.conn">
+    <logger name="org.apache.htestsimpl.conn">
         <level value="debug"/>
     </logger>
 
-    <logger name="org.apache.http.impl.client">
+    <logger name="org.apache.htestsimpl.client">
         <level value="debug"/>
     </logger>
 
