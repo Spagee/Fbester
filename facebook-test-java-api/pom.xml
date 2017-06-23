@@ -21,12 +21,30 @@
         <groupId>com.jayway.facebooktestjavaapi</groupId>
         <version>1.1.6-SNAPSHOT</version>
     </parent>
-    <groupId>com.jayway.facebooktestjavaapi</groupId>
-    <artifactId>facebook-test-java-api</artifactId>
+    <groupId>com.spagee.fbester</groupId>
+    <artifactId>Fbester</artifactId>
     <version>1.1.6-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>facebook-test-java-api</name>
+    <name>Fbester</name>
     <description>Java API for testing Facebook application integration</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>fully.qualified.MainClass</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>

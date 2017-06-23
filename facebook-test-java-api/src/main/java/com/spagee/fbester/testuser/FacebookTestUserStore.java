@@ -1,4 +1,4 @@
-package com.jayway.facebooktestjavaapi.testuser;
+package com.spagee.fbester.testuser;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ public interface FacebookTestUserStore {
      * Creates a new Facebook test user for a Facebook application.
      *
      * @param appInstalled True if the account should directly accept the application requesting the specified permissions,
-     *                     false to use the {@link com.jayway.facebooktestjavaapi.testuser.FacebookTestUserAccount#loginUrl()}}.
+     *                     false to use the {@link FacebookTestUserAccount#loginUrl()}}.
      * @param permissions  Comma-separated list of permissions for the Facebook application. See
      *                     <a href="http://developers.facebook.com/docs/authentication/permissions">Permissions</a>
      *                     documentation.
