@@ -1,8 +1,8 @@
-package com.jayway.facebooktestjavaapi.testuser.impl;
+package com.spagee.fbester.testuser.tests;
 
-import com.jayway.facebooktestjavaapi.testuser.FacebookTestUserAccount;
-import com.jayway.facebooktestjavaapi.testuser.FacebookTestUserStore;
-import com.jayway.jsonassert.JsonAssert;
+import com.spagee.fbester.testuser.FacebookTestUserStore;
+import com.spagee.fbester.testuser.impl.HttpClientFacebookTestUserStore;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

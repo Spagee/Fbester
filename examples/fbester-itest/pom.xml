@@ -18,12 +18,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>example-parent</artifactId>
-        <groupId>com.jayway.facebooktestjavaapi.examples</groupId>
+        <artifactId>fbester</artifactId>
+        <groupId>com.spagee</groupId>
         <version>1.1.6-SNAPSHOT</version>
     </parent>
-    <groupId>com.jayway.facebooktestjavaapi.examples</groupId>
-    <artifactId>facebook-test-java-api-itest</artifactId>
+    <groupId>com.spagee.examples</groupId>
+    <artifactId>fbester-itest</artifactId>
     <version>1.1.6-SNAPSHOT</version>
     <name>Facebook Test Java API integration tests</name>
     <description>Integration tests verifying the functionality of the API and provides examples of how to use it.
@@ -45,8 +45,9 @@
             <artifactId>mockito-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.jayway.jsonpath</groupId>
+            <groupId>com.spagee.fbester</groupId>
             <artifactId>json-path-assert</artifactId>
+            <version></version>
         </dependency>
     </dependencies>
 </project>
