@@ -1,8 +1,9 @@
-package com.jayway.facebooktestjavaapi.testuser.impl;
+package com.spagee.fbester.testuser.impl;
 
-import com.jayway.facebooktestjavaapi.testuser.FacebookTestUserAccount;
-import com.jayway.facebooktestjavaapi.testuser.FacebookTestUserStore;
+import com.spagee.fbester.testuser.FacebookTestUserAccount;
+import com.spagee.fbester.testuser.FacebookTestUserStore;
 import com.jayway.jsonassert.JsonAssert;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -10,12 +11,12 @@ import org.apache.http.client.methods.HttpRequestBase;
 import org.hamcrest.Description;
 import org.hamcrest.Factory;
 import org.hamcrest.Matcher;
-import org.hamcrest.TypeSafeMatcher;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.*;
+import org.junit.internal.matchers.TypeSafeMatcher;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,7 +25,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.mock;

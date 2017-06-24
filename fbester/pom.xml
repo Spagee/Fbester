@@ -17,17 +17,33 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>facebook-test-java-api-parent</artifactId>
-        <groupId>com.jayway.facebooktestjavaapi</groupId>
+        <artifactId>fbester-parent</artifactId>
+        <groupId>com.spagee</groupId>
         <version>1.1.6-SNAPSHOT</version>
     </parent>
-    <groupId>com.jayway.facebooktestjavaapi</groupId>
-    <artifactId>facebook-test-java-api</artifactId>
+    <groupId>com.spagee</groupId>
+    <artifactId>fbester</artifactId>
     <version>1.1.6-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>facebook-test-java-api</name>
+    <name>fbester</name>
     <description>Java API for testing Facebook application integration</description>
-
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>fully.qualified.MainClass</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
