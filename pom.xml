@@ -51,7 +51,7 @@
     </developers>
 
     <modules>
-        <module>facebook-test-java-api</module>
+        <module>fbester</module>
         <module>examples</module>
     </modules>
 
