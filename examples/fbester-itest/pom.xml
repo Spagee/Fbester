@@ -45,7 +45,7 @@
             <artifactId>mockito-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.spagee.jsonpath</groupId>
+            <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path-assert</artifactId>
         </dependency>
     </dependencies>
