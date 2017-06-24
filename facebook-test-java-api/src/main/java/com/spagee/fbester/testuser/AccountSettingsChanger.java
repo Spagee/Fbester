@@ -1,4 +1,4 @@
-package com.jayway.facebooktestjavaapi.testuser;
+package com.spagee.fbester.testuser;
 
 /**
  * Changes account settings for at test user.

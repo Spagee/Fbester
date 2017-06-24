@@ -28,6 +28,6 @@
     <packaging>pom</packaging>
     <name>Facebook Test Java API Examples</name>
     <modules>
-        <module>facebook-test-java-api-itest</module>
+        <module>fbester-itest</module>
     </modules>
 </project>
