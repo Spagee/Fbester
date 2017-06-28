@@ -29,16 +29,18 @@
     <description>Integration tests verifying the functionality of the API and provides examples of how to use it.
     </description>
 
+
     <dependencies>
         <dependency>
-            <groupId>com.jayway.jsonpath</groupId>
-            <artifactId>json-path-assert</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.spagee.fbester</groupId>
+            <groupId>com.spagee</groupId>
             <artifactId>fbester</artifactId>
             <version>1.1.6-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path-assert</artifactId>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
