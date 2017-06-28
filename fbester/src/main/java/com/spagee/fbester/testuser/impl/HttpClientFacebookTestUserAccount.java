@@ -2,8 +2,8 @@ package com.spagee.fbester.testuser.impl;
 
 import com.spagee.fbester.testuser.AccountSettingsChanger;
 import com.spagee.fbester.testuser.FacebookTestUserAccount;
+import com.spagee.fbester.testuser.FacebookTestUserStore;
 
-import com.jayway.facebooktestjavaapi.testuser.FacebookTestUserStore;
 import org.apache.http.NameValuePair;
 import org.json.simple.JSONObject;
 import org.slf4j.Logger;

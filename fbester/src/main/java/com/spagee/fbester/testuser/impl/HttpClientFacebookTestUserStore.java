@@ -1,8 +1,8 @@
 package com.spagee.fbester.testuser.impl;
 
 import com.spagee.fbester.testuser.FacebookTestUserAccount;
-
 import com.spagee.fbester.testuser.FacebookTestUserStore;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
